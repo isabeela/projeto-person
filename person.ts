@@ -13,9 +13,9 @@ export class Person {
   }
 
   getFullName() {
-    return `Primeiro nome: ${this.firstname}
-    Segundo nome: ${this.middlename}
-    Ultimo nome: ${this.lastname}`;
+    return `Primeiro nome: ${this.firstname}<br>
+    Nome do meio: ${this.middlename} <br>
+    Último nome: ${this.lastname}`;
   }
 
   getBirthdayYear() {
